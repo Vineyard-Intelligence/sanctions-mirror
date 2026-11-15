@@ -1,0 +1,16 @@
+{
+  "name": "sanctions-mirror",
+  "private": true,
+  "type": "module",
+  "description": "OFAC's SDN list as browser-readable shards: names for screening, and every listed digital currency address on its network.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node --test test/build.test.mjs"
+  }
+}

@@ -1,0 +1,82 @@
+name: update
+
+# Every six hours, at a fixed minute. OFAC publishes on working days at no set hour, so a
+# designation reaches the mirror within about six hours of the list. An unchanged list skips the
+# download (scripts/update.mjs compares OFAC's Digest header) and commits only once a day, to move
+# `checked_at`, which is how a reader tells a quiet list from a stalled mirror.
+#
+# And on a push that changes the scripts: index.json names the generator that built the data, a
+# changed one makes update.mjs rebuild, and doing it at once keeps HEAD's data the output of HEAD's
+# code instead of waiting for the next run or the next list.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+  workflow_dispatch:
+
+# The job commits its own data. GITHUB_TOKEN pushes do not trigger other workflows, which is what we
+# want: this is the only thing that writes the data files.
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # main as it is when the job starts, not the commit that triggered it: a push run queued
+      # behind a scheduled one (the concurrency group above) would otherwise build on the commit
+      # before that run's data, and fail to push.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests
+        run: node --test test/build.test.mjs
+
+      - name: Fetch and rebuild
+        run: node scripts/update.mjs
+
+      # The rebuild must be the function of the file it names, or nobody can check it.
+      - name: Verify against the downloaded file
+        run: |
+          if [ -f .cache/SDN.XML ]; then node scripts/verify.mjs .cache/SDN.XML; fi
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A index.json addresses.json names data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -F .cache/commit-message
+            git push
+          fi
+
+      # A stalled mirror is the failure that matters: the plugin pack warns at three days, so open
+      # one issue on the first failure and do not pile on.
+      - name: Warn on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --label update-failure --state open --json number --jq 'length')
+          if [ "$existing" = "0" ]; then
+            gh label create update-failure --color B60205 --force >/dev/null 2>&1 || true
+            gh issue create --title "OFAC SDN update failed on $(date -u +%F)" \
+              --label update-failure \
+              --body "The scheduled update did not finish, so the mirror still serves the last list it verified. Run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
