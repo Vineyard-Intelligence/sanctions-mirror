@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "list": "OFAC SDN",
+  "source": {
+    "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML",
+    "publish_date": "2026-11-13",
+    "record_count": 19565,
+    "sha256": "55badef6928044db9fd5e798e6279802c1fa2019fa82a580a2e0d29a741ec9ae",
+    "last_modified": "2026-11-13T16:32:59Z",
+    "digest_verified": true
+  },
+  "generator": "0c4ffb52dd6ecef96032d7f6de273177b83f37b62672e0b61f52663b827d4c31",
+  "checked_at": "2026-11-15T05:36:36Z",
+  "counts": {
+    "entries": 19565,
+    "names": {
+      "Individual": 7541,
+      "Entity": 10112,
+      "Vessel": 1570,
+      "Aircraft": 342
+    },
+    "addresses": 1071,
+    "listings": 1080,
+    "parties_with_addresses": 113,
+    "addresses_by_network": {
+      "arbitrum": 1,
+      "bitcoin": 534,
+      "bitcoin_cash": 7,
+      "bitcoin_gold": 1,
+      "bitcoin_sv": 1,
+      "bnb_beacon": 1,
+      "bsc": 1,
+      "dash": 5,
+      "dogecoin": 2,
+      "ethereum": 123,
+      "ethereum_classic": 1,
+      "evm": 8,
+      "litecoin": 13,
+      "monero": 11,
+      "solana": 4,
+      "tron": 352,
+      "verge": 1,
+      "xrpl": 1,
+      "zcash": 4
+    }
+  },
+  "unmapped_codes": [],
+  "notes": [
+    "uid 29585 XMR 5be5543ff73456ab9f2d207887e2af87322c651ea1a873c5b25b7ffae456c320: the value does not read as a monero address; kept as listed",
+    "uid 45404 XBT TUCsTq7TofTCJRRoHk6RvhMoS2mJLm5Yzq: listed as XBT, but the value is not a bitcoin address"
+  ],
+  "files": {
+    "addresses.json": {
+      "sha256": "2aea52bf444e117078f9521761af2e54352027459f57337b20be6e5cb8f97fd7",
+      "bytes": 155660
+    },
+    "names/aircraft.json": {
+      "sha256": "20a1d8d34ccada754520d57395b22a016453b84ba71096a58e9ba987ccef9f51",
+      "bytes": 17930
+    },
+    "names/entity.json": {
+      "sha256": "5bf542850fb533328837fcb0dc804822c8586cc9b1ca90f952e7dbd3f68d436b",
+      "bytes": 1323329
+    },
+    "names/individual.json": {
+      "sha256": "f68d8338f92d15acc0b57441ac9f926d4837a0af409b8c744c9f27b9da05fd58",
+      "bytes": 1125557
+    },
+    "names/vessel.json": {
+      "sha256": "8b85a7ddeb5856126e38cd2e5b26ab39d1d7db23f7ad087fff71a31fb700e165",
+      "bytes": 92826
+    }
+  }
+}
