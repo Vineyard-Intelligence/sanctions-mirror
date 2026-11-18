@@ -3,19 +3,19 @@
   "list": "OFAC SDN",
   "source": {
     "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML",
-    "publish_date": "2026-11-13",
-    "record_count": 19565,
-    "sha256": "55badef6928044db9fd5e798e6279802c1fa2019fa82a580a2e0d29a741ec9ae",
-    "last_modified": "2026-11-13T16:32:59Z",
+    "publish_date": "2026-11-18",
+    "record_count": 19571,
+    "sha256": "1cb4f9a8b4de89df75829b4c822319e8265058e3a22b4dc9e6736226a20e0281",
+    "last_modified": "2026-11-18T17:35:46Z",
     "digest_verified": true
   },
   "generator": "0c4ffb52dd6ecef96032d7f6de273177b83f37b62672e0b61f52663b827d4c31",
-  "checked_at": "2026-11-18T07:43:50Z",
+  "checked_at": "2026-11-18T20:44:38Z",
   "counts": {
-    "entries": 19565,
+    "entries": 19571,
     "names": {
-      "Individual": 7541,
-      "Entity": 10112,
+      "Individual": 7544,
+      "Entity": 10115,
       "Vessel": 1570,
       "Aircraft": 342
     },
@@ -51,23 +51,23 @@
   ],
   "files": {
     "addresses.json": {
-      "sha256": "2aea52bf444e117078f9521761af2e54352027459f57337b20be6e5cb8f97fd7",
+      "sha256": "a3519e1fc5b920ccf533e689d095ea7f9a8c7136cd3d351ac99fe0473456dcb0",
       "bytes": 155660
     },
     "names/aircraft.json": {
-      "sha256": "20a1d8d34ccada754520d57395b22a016453b84ba71096a58e9ba987ccef9f51",
+      "sha256": "0b107a5a6f5ee8bb439d264e00d69fc012057df32f96aa250ef0a892ceb5d3b1",
       "bytes": 17930
     },
     "names/entity.json": {
-      "sha256": "5bf542850fb533328837fcb0dc804822c8586cc9b1ca90f952e7dbd3f68d436b",
-      "bytes": 1323329
+      "sha256": "ec74a56b0276a649726087d04bbf212e23c3fb68aa2aa2de3b18d665504e6198",
+      "bytes": 1323677
     },
     "names/individual.json": {
-      "sha256": "f68d8338f92d15acc0b57441ac9f926d4837a0af409b8c744c9f27b9da05fd58",
-      "bytes": 1125557
+      "sha256": "ef2b86cf9561df10d9a9e7c5a2413f72536360184c477a2c8fcdc9ee0cd38a6e",
+      "bytes": 1125941
     },
     "names/vessel.json": {
-      "sha256": "8b85a7ddeb5856126e38cd2e5b26ab39d1d7db23f7ad087fff71a31fb700e165",
+      "sha256": "bddf78499617ea90b5bc95d2795db4f1bea28a7adb87603748dc038e90b564cf",
       "bytes": 92826
     }
   }

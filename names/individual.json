@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-13","type":"Individual","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-18","type":"Individual","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
 [2674,"ABBAS, Abu",[["ZAYDAN, Muhammad","strong"]],["SDGT"],["10 Dec 1948"],[],[],[]],
 [2675,"AL RAHMAN, Shaykh Umar Abd",[],["SDGT"],["03 May 1938"],["Egypt"],[],[]],
 [2676,"AL ZAWAHIRI, Dr. Ayman",[["AL-ZAWAHIRI, Ayman","strong"],["SALIM, Ahmad Fuad","strong"],["AL-ZAWAHIRI, Aiman Muhammad Rabi","strong"]],["SDGT"],["19 Jun 1951"],["Giza, Egypt"],[],[]],
@@ -4821,7 +4821,7 @@
 [38436,"HAJI HOSSEINI, Mostafa",[["HAJIHOSSEINI, Mostafa","strong"],["HAJJI HOSEINI ROKNABADI, Mostafa","strong"]],["CYBER2","IFSR","IRGC"],["1991"],["Meybod, Yazd Province, Iran"],["Iran"],[]],
 [38437,"HAJI HOSSEINI, Mojtaba",[["HAJIHOSSEINI, Mojtaba","strong"],["HAJJI HOSEINI ROKNABADI, Mojtaba","strong"]],["CYBER2","IFSR","IRGC"],["1991"],["Meybod, Yazd Province, Iran"],["Iran"],[]],
 [38456,"SHAKERI ASHTIJEH, Mohammad",[["SHAKERI, Mohammad","strong"]],["CYBER2","IFSR","IRGC"],["28 Nov 1997"],["Qom, Qom Province, Iran"],["Iran"],[]],
-[38496,"RIVERA ZAZUETA, Jose Angel",[["RIVERA SALAS, Miguel Angel","strong"],["El Flaco","weak"]],["ILLICIT-DRUGS-EO14059","SDGT"],["15 Aug 1987","15 Dec 1987"],["Estado de Mexico, Mexico","Sinaloa, Mexico"],["Mexico"],["Mexico"]],
+[38496,"RIVERA ZAZUETA, Jose Angel",[["RIVERA SALAS, Miguel Angel","strong"],["El Flaco","weak"]],["ILLICIT-DRUGS-EO14059","SDGT"],["15 Aug 1987","15 Dec 1987"],["Sinaloa, Mexico","Estado de Mexico, Mexico"],["Mexico"],["Mexico"]],
 [38497,"SANTISO AGUILA, Nelton",[],["ILLICIT-DRUGS-EO14059"],["20 Aug 1970"],[],["Mexico"],["Mexico"]],
 [38498,"YANG LOPEZ, Jason Antonio",[],["ILLICIT-DRUGS-EO14059"],["29 Mar 1981"],["Mazatenango, Guatemala"],["Guatemala"],["Guatemala"]],
 [38516,"TWEHWAY, Bill",[["TWEHWAY, Bill Teah","strong"]],["GLOMAG"],["27 Oct 1965"],["River Cess Town, Liberia"],["Liberia"],[]],
@@ -7539,5 +7539,8 @@
 [59054,"SHAHID, Jaspreet Preeti",[["KAUR, Jaspreet","strong"]],["IRAN-EO13902"],["22 Aug 1980"],["Chandigarh, India"],["India"],[]],
 [59056,"DHIMAN, Ashwani Kumar",[],["IRAN-EO13902"],["01 Mar 1980"],[],["India"],[]],
 [59057,"SINGH, Ishwinder",[],["IRAN-EO13902"],["01 Apr 1992"],[],["India"],[]],
-[59090,"DOMULLODZHANOV, Alisher",[["DOMULLODZHANOV, Alisher Hairulloevich","strong"]],["IRAN-CON-ARMS-EO"],["29 Nov 1989"],["Dushanbe, Tajikistan"],["Russia","Tajikistan"],[]]
+[59090,"DOMULLODZHANOV, Alisher",[["DOMULLODZHANOV, Alisher Hairulloevich","strong"]],["IRAN-CON-ARMS-EO"],["29 Nov 1989"],["Dushanbe, Tajikistan"],["Russia","Tajikistan"],[]],
+[59173,"KHECHEN, Hassan",[["KHASHAN, Hassan Muhammad","strong"],["KHASHAN, Hassan","strong"]],["SDGT"],["19 Jul 1986"],[],["Lebanon"],[]],
+[59174,"KHECHEN, Ibrahim",[],["SDGT"],["10 Jun 1992"],[],["Lebanon"],[]],
+[59189,"CHOUMAN, Afif Abdel Rida",[["SHUMAN, Afif Abd-Al-Rida","strong"],["AL-FADL, Abu","strong"]],["SDGT"],["21 Apr 1983"],["Zefta, Nabatieh, Lebanon"],["Lebanon"],[]]
 ]}

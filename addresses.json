@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-13","addresses":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-18","addresses":[
 {"network":"arbitrum","address":"0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c","listings":[{"uid":42498,"code":"ARB"}]},
 {"network":"bitcoin","address":"123WBUDmSJv4GctdVEz6Qq6z8nXSKrJ4KX","listings":[{"uid":36216,"code":"XBT"}]},
 {"network":"bitcoin","address":"125W5ek3DT6Zqy5S2iPt4FHQdNMCbZA3FU","listings":[{"uid":42496,"code":"XBT"}]},
