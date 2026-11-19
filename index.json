@@ -3,25 +3,25 @@
   "list": "OFAC SDN",
   "source": {
     "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML",
-    "publish_date": "2026-11-18",
-    "record_count": 19571,
-    "sha256": "1cb4f9a8b4de89df75829b4c822319e8265058e3a22b4dc9e6736226a20e0281",
-    "last_modified": "2026-11-18T17:35:46Z",
+    "publish_date": "2026-11-19",
+    "record_count": 19595,
+    "sha256": "95e53034408fc95df8bca939354b75611a849fca6d0ea142002da456abbc5802",
+    "last_modified": "2026-11-19T14:31:54Z",
     "digest_verified": true
   },
   "generator": "0c4ffb52dd6ecef96032d7f6de273177b83f37b62672e0b61f52663b827d4c31",
-  "checked_at": "2026-11-18T20:44:38Z",
+  "checked_at": "2026-11-19T20:49:36Z",
   "counts": {
-    "entries": 19571,
+    "entries": 19595,
     "names": {
-      "Individual": 7544,
-      "Entity": 10115,
+      "Individual": 7561,
+      "Entity": 10122,
       "Vessel": 1570,
       "Aircraft": 342
     },
-    "addresses": 1071,
-    "listings": 1080,
-    "parties_with_addresses": 113,
+    "addresses": 1072,
+    "listings": 1081,
+    "parties_with_addresses": 114,
     "addresses_by_network": {
       "arbitrum": 1,
       "bitcoin": 534,
@@ -38,7 +38,7 @@
       "litecoin": 13,
       "monero": 11,
       "solana": 4,
-      "tron": 352,
+      "tron": 353,
       "verge": 1,
       "xrpl": 1,
       "zcash": 4
@@ -51,23 +51,23 @@
   ],
   "files": {
     "addresses.json": {
-      "sha256": "a3519e1fc5b920ccf533e689d095ea7f9a8c7136cd3d351ac99fe0473456dcb0",
-      "bytes": 155660
+      "sha256": "ec3e99f87b2030edda94071d032c55fe2e968cf52e2caa3517ed3c229c6cbdf7",
+      "bytes": 156057
     },
     "names/aircraft.json": {
-      "sha256": "0b107a5a6f5ee8bb439d264e00d69fc012057df32f96aa250ef0a892ceb5d3b1",
+      "sha256": "32b26ab8139c91f5a0d10eb9849b46b0dea51518cf79eefbe7f5862c8a106828",
       "bytes": 17930
     },
     "names/entity.json": {
-      "sha256": "ec74a56b0276a649726087d04bbf212e23c3fb68aa2aa2de3b18d665504e6198",
-      "bytes": 1323677
+      "sha256": "835baedba50c47aafa92fb4d238a0129718f8ed5d9466143ffb0d38f514403d1",
+      "bytes": 1324330
     },
     "names/individual.json": {
-      "sha256": "ef2b86cf9561df10d9a9e7c5a2413f72536360184c477a2c8fcdc9ee0cd38a6e",
-      "bytes": 1125941
+      "sha256": "04d200d1be40af975325e09029943488b8c0baee870468581e29d09b16884d4a",
+      "bytes": 1128262
     },
     "names/vessel.json": {
-      "sha256": "bddf78499617ea90b5bc95d2795db4f1bea28a7adb87603748dc038e90b564cf",
+      "sha256": "4a42149a6cfde3de393180ceff88891d07c586a1c4bf3305d09d5eb73d49f980",
       "bytes": 92826
     }
   }

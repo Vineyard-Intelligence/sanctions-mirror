@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-18","type":"Vessel","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-19","type":"Vessel","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
 [4238,"MAR AZUL",[],["CUBA"],[],[],[],[]],
 [4243,"EBANO",[["ANA I","weak"],["SAND SWAN","weak"]],["CUBA"],[],[],[],[]],
 [4249,"TIFON",[],["CUBA"],[],[],[],[]],

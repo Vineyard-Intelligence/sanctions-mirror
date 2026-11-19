@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-13","addresses":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-19","addresses":[
 {"network":"arbitrum","address":"0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c","listings":[{"uid":42498,"code":"ARB"}]},
 {"network":"bitcoin","address":"123WBUDmSJv4GctdVEz6Qq6z8nXSKrJ4KX","listings":[{"uid":36216,"code":"XBT"}]},
 {"network":"bitcoin","address":"125W5ek3DT6Zqy5S2iPt4FHQdNMCbZA3FU","listings":[{"uid":42496,"code":"XBT"}]},
@@ -1012,6 +1012,7 @@
 {"network":"tron","address":"TVn4q7L4fKEPbygi7UHq1CKfZxtbeuMV5q","listings":[{"uid":47664,"code":"USDT","network_from":"format"}]},
 {"network":"tron","address":"TVttWTHTCU9kULP51m9BaHpmCW8H1BJJNQ","listings":[{"uid":18647,"code":"TRX"}]},
 {"network":"tron","address":"TVu2SiQrWSnfwk8quAeDxfiaLy6FHzYkMA","listings":[{"uid":22985,"code":"USDT","network_from":"format"}]},
+{"network":"tron","address":"TVwLtgUXyDhmcSoQ9x2z9QSua41f8mDFvU","listings":[{"uid":58806,"code":"TRX"}]},
 {"network":"tron","address":"TVyiDQ25H6Rx6PcNV1WyjGasGSa8ehj1Uv","listings":[{"uid":22985,"code":"USDT","network_from":"format"}]},
 {"network":"tron","address":"TW3RgbhYkFEFnmRJ9mE9b83T9XYSMkjwuD","listings":[{"uid":22985,"code":"USDT","network_from":"format"}]},
 {"network":"tron","address":"TW5NEaaoPHXC1rt5PaYgG474gQ49oiZ2F5","listings":[{"uid":59095,"code":"TRX"}]},
@@ -1177,6 +1178,7 @@
 "58287":{"type":"Entity","name":"SHPS SHELBIT","aliases":[["SHELBIT EXCHANGE","weak"]],"programs":["SDGT"],"dates_of_birth":[],"places_of_birth":[],"nationalities":[],"citizenships":[]},
 "58361":{"type":"Entity","name":"XINBI GUARANTEE","aliases":[["XINBI","weak"]],"programs":["TCO"],"dates_of_birth":[],"places_of_birth":[],"nationalities":[],"citizenships":[]},
 "58409":{"type":"Individual","name":"TSORIS, Almpertos","aliases":[["TSORIS, Alberto","strong"]],"programs":["IRAN-EO13902"],"dates_of_birth":["07 Jan 1987"],"places_of_birth":[],"nationalities":["Greece"],"citizenships":[]},
+"58806":{"type":"Individual","name":"VARELA VILLAR, Alexandre","aliases":[["VARE, Alex","strong"],["VARELA, Alex","strong"]],"programs":["ILLICIT-DRUGS-EO14059"],"dates_of_birth":["19 Nov 1991"],"places_of_birth":["Pontevedra, Galicia, Spain"],"nationalities":["Spain"],"citizenships":[]},
 "58886":{"type":"Individual","name":"BOYKOV, Ilya Aleksandrovich","aliases":[],"programs":["DPRK2"],"dates_of_birth":["30 May 1994"],"places_of_birth":[],"nationalities":["Russia"],"citizenships":[]},
 "58887":{"type":"Individual","name":"KIM, Ki Hyok","aliases":[["KIM, Ki-hyo'k","strong"]],"programs":["DPRK2"],"dates_of_birth":["30 May 1980"],"places_of_birth":[],"nationalities":["Korea, North"],"citizenships":[]},
 "58889":{"type":"Individual","name":"OBERTAS, Vitold Viktorovich","aliases":[],"programs":["DPRK2"],"dates_of_birth":["18 Nov 1968"],"places_of_birth":["Vladivostok, Russia"],"nationalities":["Russia"],"citizenships":["Russia"]},
