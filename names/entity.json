@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-19","type":"Entity","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-20","type":"Entity","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
 [36,"AEROCARIBBEAN AIRLINES",[["AERO-CARIBBEAN","strong"]],["CUBA"],[],[],[],[]],
 [173,"ANGLO-CARIBBEAN CO., LTD.",[["AVIA IMPORT","strong"]],["CUBA"],[],[],[],[]],
 [306,"BANCO NACIONAL DE CUBA",[["BNC","weak"],["NATIONAL BANK OF CUBA","strong"]],["CUBA"],[],[],[],[]],
