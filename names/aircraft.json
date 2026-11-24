@@ -1,4 +1,4 @@
-{"format":1,"list":"OFAC SDN","as_of":"2026-11-20","type":"Aircraft","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
+{"format":1,"list":"OFAC SDN","as_of":"2026-11-23","type":"Aircraft","fields":["uid","name","aliases","programs","dates_of_birth","places_of_birth","nationalities","citizenships"],"entries":[
 [15432,"EP-GOL",[],["SDGT"],[],[],[],[]],
 [15433,"EP-GOQ",[],["SDGT"],[],[],[],[]],
 [15434,"EP-GOY",[],["SDGT"],[],[],[],[]],
